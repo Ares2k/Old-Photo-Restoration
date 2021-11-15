@@ -34,6 +34,8 @@ Another problem which I encountered was determining how I would come up with an 
 
 This is the approach I used and found that for the damaged image, the pixel intensity distribution was more towards the lighter side (closer to 255) for the brightest color channels and for the faded image, it was generally under 100.<br />
 
+### Before: Faded Image <br />
+
 ![Before: Faded Image](/Faded.jpg)
 
 References:
