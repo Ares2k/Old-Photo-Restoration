@@ -32,7 +32,9 @@ Working with the damaged image was a bit tricky since I wasn't sure what I could
 
 Another problem which I encountered was determining how I would come up with an algorithm to determine which restoration function to run the image against. First I looked into converting both images into grayscale and then displaying regular histograms to determine the difference but both images had a mixture of dark and light pixels. I looked into analysing the RGB color channels and mapping them to a histogram to see what color channels were prevalent in each image so that I could find something different between the 2 images. I read about "Multi-dimensional Histograms"[3] where I learned it's possible to map each color channel onto the same histogram so that they would overlap and I could compare them.
 
-This is the approach I used and found that for the damaged image, the pixel intensity distribution was more towards the lighter side (closer to 255) for the brightest color channels and for the faded image, it was generally under 100.
+This is the approach I used and found that for the damaged image, the pixel intensity distribution was more towards the lighter side (closer to 255) for the brightest color channels and for the faded image, it was generally under 100.<br />
+
+![Before: Faded Image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 References:
 
