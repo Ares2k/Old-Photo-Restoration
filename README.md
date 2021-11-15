@@ -1,5 +1,4 @@
 # Image Processing Assignment: Transformation
-C18395266<br />
 Timur Sultanov
 
 ### Description:
