@@ -8,7 +8,7 @@ This program's goal is to restore faded and damaged images supplied by the user.
 In order to fix the faded image, the following operations are performed:
 
 **1.** Image is read in and converted to grayscale.<br />
-**2.**. Edges are located in the image.<br />
+**2.** Edges are located in the image.<br />
 **3.** A blank canvas is created, contours are then found and drawn onto it with the help of the edged image.<br />
 **4.** Intersecting points are located on the contour canvas.<br />
 **5.** Program loops over the intersecting points and discovers the outer most points to ensure entire ROI is captured.<br />
