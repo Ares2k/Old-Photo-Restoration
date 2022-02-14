@@ -1,5 +1,5 @@
 # Old Photo Restoration
-This program restores a user provided faded/damaged image. You can see the after pictures below as a result of this.
+This program restores the faded/damaged areas in two images. You can see the after pictures below as a result of this.
 
 ### Algorithm for the faded image:
 In order to fix the faded image, the following operations are performed:
