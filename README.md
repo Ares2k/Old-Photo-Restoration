@@ -1,5 +1,5 @@
 # Old Photo Restoration
-This program's goal is to restore faded and damaged images supplied by the user. I couldn't find an algorithm to suit both images for the simple fact that both images have completely different defects. The faded image has a clear border depicting the transition between the faded and non faded region whereas the damaged image does not.
+This program restores a user provided faded/damaged image. You can see the after pictures below as a result of this.
 
 ### Algorithm for the faded image:
 In order to fix the faded image, the following operations are performed:
