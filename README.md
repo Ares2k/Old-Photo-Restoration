@@ -1,7 +1,4 @@
 # Image Processing Assignment: Transformation
-Timur Sultanov
-
-### Description:
 This program's goal is to restore faded and damaged images supplied by the user. I couldn't find an algorithm to suit both images for the simple fact that both images have completely different defects. The faded image has a clear border depicting the transition between the faded and non faded region whereas the damaged image does not.
 
 ### Algorithm for the faded image:
