@@ -1,6 +1,14 @@
 # Old Photo Restoration
 This program restores the faded/damaged areas in two images. You can see the after pictures below as a result of this.
 
+Before             |  After
+:-------------------------:|:-------------------------:
+![Faded](https://user-images.githubusercontent.com/39646629/154096273-1d7001de-8a09-4b4a-b127-a2c79b2d4d04.jpg) | ![Faded-Fix](https://user-images.githubusercontent.com/39646629/154096288-57019e12-f416-4bb1-b903-f07021acb144.png)
+
+Before             |  After
+:-------------------------:|:-------------------------:
+<img height="344" src="https://user-images.githubusercontent.com/39646629/154096754-e942f016-f231-4928-9b98-ecf486b2caf9.jpg" /> | <img height="344" src="https://user-images.githubusercontent.com/39646629/154096761-e07c828b-3687-4985-ac5b-672c13d34032.png" />
+
 ### Algorithm for the faded image:
 In order to fix the faded image, the following operations are performed:
 
@@ -30,7 +38,7 @@ Another problem which I encountered was determining how I would come up with an 
 
 This is the approach I used and found that for the damaged image, the pixel intensity distribution was more towards the lighter side (closer to 255) for the brightest color channels and for the faded image, it was generally under 100.<br />
 
-### Before: Faded Image <br />
+<!-- ### Before: Faded Image <br />
 ![Before: Faded Image](/Assets/Faded.jpg)
 
 ### After: Faded Image <br />
@@ -40,7 +48,7 @@ This is the approach I used and found that for the damaged image, the pixel inte
 ![Before: Damaged Image](/Assets/Damaged.jpg)
 
 ### After: Damaged Image <br />
-![Before: Damaged Image](/Restored_Damaged.jpg)
+![Before: Damaged Image](/Restored_Damaged.jpg) -->
 
 References:
 
